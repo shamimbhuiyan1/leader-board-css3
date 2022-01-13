@@ -1,7 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #f3f1ff;
+  background-color: white;
+}
+.icon {
+  display: flex;
+  justify-content: space-between;
+  color: #fee5df;
+  align-items: center;
+  margin-left: 126px;
+}
+nav {
+  background-color: #562eff;
+}
+.navbar {
+  display: flex;
+}
+ul,
+li,
+a {
+  display: flex;
+  text-decoration: none;
+  color: #fee5df;
+  padding-right: 36px;
+  align-items: center;
+}
+.navbar-pic {
+  width: 51px;
+  height: 51px;
+  border-radius: 50%;
+  border: 1px solid;
 }
 main {
   display: flex;
@@ -92,7 +120,7 @@ hr {
   background: #fee5df;
   border-radius: 15px;
   color: #ff4a60;
-  padding-right: ;
+  padding-right: 5px;
 }
 .fa-star {
   font-size: 12px;
@@ -132,5 +160,6 @@ hr {
   }
   .blog {
     grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 5px;
   }
 }
